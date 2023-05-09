@@ -1,0 +1,148 @@
+{
+    "sheets": [
+        {
+            "name": "test",
+            "description": "",
+            "displayColumn": "id",
+            "guid": "0b524c90-358c-459b-a8dd-b6d4514e9ad7",
+            "columns": [
+                {
+                    "typeStr": "props",
+                    "guid": "2c39f195-7825-4bea-957f-6ce8bfb89d71",
+                    "name": "kitaplar",
+                    "description": "",
+                    "sheet": "b4877a92-c06e-4c69-9de0-9c480a4b44ea",
+                    "defaultValue": {},
+                    "iconName": "newProps",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text"
+                    }
+                }
+            ],
+            "lines": [
+                {
+                    "guid": "8466cc70-c74f-4b97-b5bb-982ef47a8059",
+                    "id": "0",
+                    "kitaplar": {
+                        "guid": "10258bf2-9d6d-4eea-8be7-abdbb8707604",
+                        "kit_ad": "",
+                        "kit_drop": "",
+                        "kit_sayfa": 0,
+                        "kit_yazari": "",
+                        "kit_yayin": ""
+                    }
+                }
+            ],
+            "hidden": false,
+            "isProps": false,
+            "configurable": {
+                "name": "text",
+                "description": "text",
+                "displayColumn": "columnSelect@name",
+                "columnSelect@name@displayColumn": {
+                    "allowedTypes": [
+                        "int",
+                        "float",
+                        "text",
+                        "longtext"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "kitaplar",
+            "description": "props@0b524c90-358c-459b-a8dd-b6d4514e9ad7",
+            "displayColumn": "id",
+            "guid": "34af10e3-1c8f-4d6a-995c-09b53553271a",
+            "columns": [],
+            "lines": [],
+            "hidden": true,
+            "isProps": true,
+            "parentSheetGUID": "0b524c90-358c-459b-a8dd-b6d4514e9ad7",
+            "columnGUID": "d2b30f9f-e923-441e-a45f-3ddfcb898e9c"
+        },
+        {
+            "name": "new properties",
+            "description": "props@0b524c90-358c-459b-a8dd-b6d4514e9ad7",
+            "displayColumn": "id",
+            "guid": "b4877a92-c06e-4c69-9de0-9c480a4b44ea",
+            "columns": [
+                {
+                    "typeStr": "text",
+                    "guid": "32424d67-74b7-4bfa-8b29-15e0456686b7",
+                    "name": "kit_ad",
+                    "description": "kit_ad",
+                    "defaultValue": "",
+                    "iconName": "newText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                },
+                {
+                    "typeStr": "text",
+                    "guid": "f251ab56-34f9-4c40-beba-c2a7a4777ee6",
+                    "name": "kit_drop",
+                    "description": "kit_drop",
+                    "defaultValue": "",
+                    "iconName": "newText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "2f10ca7b-3d15-4a2c-85e4-eb0ca8f26134",
+                    "description": "kit_sayfa",
+                    "name": "kit_sayfa",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 0,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                },
+                {
+                    "typeStr": "text",
+                    "guid": "db089809-fb89-4a84-bd02-a86edf8887c9",
+                    "name": "kit_yazari",
+                    "description": "kit_yazari",
+                    "defaultValue": "",
+                    "iconName": "newText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                },
+                {
+                    "typeStr": "text",
+                    "guid": "8d7e3403-aefa-42e9-921b-d1e6004af4e4",
+                    "name": "kit_yayin",
+                    "description": "kit_yayin",
+                    "defaultValue": "",
+                    "iconName": "newText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                }
+            ],
+            "lines": [],
+            "hidden": true,
+            "isProps": true,
+            "parentSheetGUID": "0b524c90-358c-459b-a8dd-b6d4514e9ad7",
+            "columnGUID": "2c39f195-7825-4bea-957f-6ce8bfb89d71"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "kitaplar": [
+    {
+      "kit_ad": "test",
+      "kit_drop": "şiir",
+      "kit_sayfa": "15",
+      "kit_yazari": "name tag",
+      "kit_yayin": "ateşler",
+      "kit_basim": "7. basım",
+      "id": 0
+    },
+    {
+      "kit_ad": "tw",
+      "kit_drop": "makale",
+      "kit_sayfa": "75",
+      "kit_yazari": "name tag",
+      "kit_yayin": "ateşler",
+      "kit_basim": "7. basım",
+      "id": 1
+    },
+    {
+      "kit_ad": "test",
+      "kit_drop": "roman",
+      "kit_sayfa": "42",
+      "kit_yazari": "nathat",
+      "kit_yayin": "ateşlar",
+      "kit_basim": "6. basım",
+      "id": 2
+    },
+    {
+      "kit_ad": "test",
+      "kit_drop": "hikaye",
+      "kit_sayfa": "23",
+      "kit_yazari": "nathat",
+      "kit_yayin": "ateşlar",
+      "kit_basim": "9498748*",
+      "id": 3
+    }
+  ]
+}
